@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <href src="music.css"></href>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abivarman Piano — Official Channel</title>
+  <meta name="description" content="Abivarman Piano (@abivarmanmusic777) — piano covers, BGMs and shorts. Subscribe for new uploads!" />
+  <link rel="icon" href="data:,"><style>
+  :root{--accent:#E94E77;--bg:#0f1720;--card:#0b1220;--muted:#9aa4b2}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef6;background:linear-gradient(180deg,#071023 0%,#081225 60%);}
+  .container{max-width:1100px;margin:36px auto;padding:20px}
+  header{display:flex;gap:16px;align-items:center}
+  .logo{width:84px;height:84px;border-radius:14px;background:linear-gradient(135deg,var(--accent),#6a9bd8);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:26px}
+  h1{margin:0;font-size:28px}
+  p.lead{color:var(--muted);margin:6px 0 0}
+  .hero{display:grid;grid-template-columns:1fr 320px;gap:18px;margin-top:18px}
+  .card{background:rgba(255,255,255,0.03);padding:14px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.5)}
+  iframe{width:100%;height:200px;border-radius:8px;border:0}
+  .subscribe{display:flex;flex-direction:column;gap:10px;align-items:stretch}
+  .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600;text-align:center}
+  .btn-primary{background:var(--accent);color:white}
+  .btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted)}
+  .meta{font-size:13px;color:var(--muted)}
+  section.gallery{margin-top:18px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  .video-card{padding:8px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.018), rgba(255,255,255,0.01))}
+  footer{margin-top:26px;color:var(--muted);font-size:13px;text-align:center}
+  @media(max-width:880px){.hero{grid-template-columns:1fr}iframe{height:220px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">AB</div>
+      <div>
+        <h1>Abivarman Piano</h1>
+        <p class="lead">Official site for the YouTube channel <strong>@abivarmanmusic777</strong> — piano covers, BGM &amp; trending shorts.</p>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="card">
+        <h2 style="margin-top:0">Featured video</h2>
+        <!-- Replace FEATURED_VIDEO_ID with the YouTube video id you want to show (eg: D0xHbXY5Oic) -->
+        <div style="margin-top:10px">
+          <iframe id="featuredVideo" src="https://www.youtube.com/embed/D0xHbXY5Oic" title="Featured video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p class="meta">Tip: To change the featured video, replace the video ID in the iframe src (after "embed/").</p>
+      </div>
+
+      <aside class="card subscribe">
+        <div style="display:flex;align-items:center;gap:12px">
+          <div style="width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#6a9bd8);display:flex;align-items:center;justify-content:center;color:white;font-weight:700">AB</div>
+          <div>
+            <div style="font-weight:700">Abivarman Piano</div>
+            <div class="meta">@abivarmanmusic777</div>
+          </div>
+        </div>
+
+        <!-- Subscribe button (simple link). For official YouTube subscribe button widget see YouTube docs if desired. -->
+        <a class="btn btn-primary" href="https://www.youtube.com/@abivarmanmusic777" target="_blank" rel="noopener">Subscribe on YouTube</a>
+        <a class="btn btn-ghost" href="https://www.youtube.com/@abivarmanmusic777/videos" target="_blank" rel="noopener">View all videos</a>
+
+        <div style="margin-top:6px" class="meta">Channel stats shown here are static. To display live counts, you'd need to use YouTube Data API (server-side key required).</div>
+      </aside>
+    </div>
+
+    <section class="gallery">
+      <h3 style="margin-bottom:8px">Recent uploads</h3>
+      <div class="grid">
+        <!-- Example embedded videos. Replace IDs with your own video IDs. -->
+        <div class="video-card"><iframe src="https://www.youtube.com/embed/O0ZD9bVSOdQ" title="Video 1" allowfullscreen></iframe></div>
+        <div class="video-card"><iframe src="https://www.youtube.com/embed/D0xHbXY5Oic" title="Video 2" allowfullscreen></iframe></div>
+        <div class="video-card"><iframe src="https://www.youtube.com/embed/O0ZD9bVSOdQ" title="Video 3" allowfullscreen></iframe></div>
+        <div class="video-card"><iframe src="https://www.youtube.com/embed/D0xHbXY5Oic" title="Video 4" allowfullscreen></iframe></div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px;display:grid;grid-template-columns:1fr 300px;gap:14px">
+      <div class="card">
+        <h3 style="margin-top:0">About</h3>
+        <p class="meta">Abivarman Piano shares short piano clips, popular film BGMs and trending melodies. New shorts uploaded frequently — perfect for quick listens and study/relax background music.</p>
+        <ul class="meta" style="margin-top:8px;padding-left:18px">
+          <li>Subscribe for daily/weekly shorts</li>
+          <li>Requests welcome — leave comments on YouTube</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3 style="margin-top:0">Contact</h3>
+        <p class="meta">For collaborations or inquiries:</p>
+        <p class="meta">YouTube channel: <a href="https://www.youtube.com/@abivarmanmusic777" target="_blank" rel="noopener">@abivarmanmusic777</a></p>
+        <p class="meta">Instagram / X / Email — add your links here.</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="meta">Made with ❤️ for Abivarman Piano — open this file in your browser to view. Customize the featured video IDs, replace images, or add your social links.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Small helper: swap featured video when the user clicks any embedded video (optional UX)
+    document.querySelectorAll('.video-card iframe').forEach(function(iframe){
+      iframe.addEventListener('load', function(){
+        // nothing required here by default; this block kept for future enhancements
+      });
+    });
+  </script>
+</body>
+</html>
