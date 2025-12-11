@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abivarman Portfolio</title>
+
+<style>
+
+    body{
+        font-family: 'Poppins', sans-serif;
+        margin:0;
+        background:#f5f2e9;
+    }
+
+    /* HERO SECTION */
+    .hero{
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        padding:80px 10%;
+        background:white;
+    }
+
+    .hero img{
+        width:330px;
+        height:400px;
+        object-fit:cover;
+        border-radius:20px;
+        box-shadow:0 0 25px rgba(0,0,0,0.15);
+    }
+
+    .hero-text h1{
+        font-size:45px;
+        font-weight:700;
+        margin-bottom:10px;
+    }
+    .hero-text p{
+        font-size:18px;
+        margin:8px 0;
+        color:#333;
+    }
+    .highlight{
+        color:#ff9900;
+        font-weight:600;
+    }
+
+    /* SECTION TITLE */
+    .section-title{
+        font-size:32px;
+        font-weight:700;
+        margin:40px 0 10px 0;
+        text-align:center;
+        color:#333;
+    }
+
+    /* INFO CARDS */
+    .cards{
+        width:80%;
+        margin:auto;
+        display:flex;
+        justify-content:space-between;
+        gap:20px;
+    }
+
+    .card{
+        flex:1;
+        padding:25px;
+        background:white;
+        border-radius:18px;
+        box-shadow:0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .card h3{
+        margin-top:0;
+        color:#ff9900;
+    }
+
+    /* SOCIAL */
+    .social{
+        text-align:center;
+        margin-top:30px;
+    }
+    .social a{
+        font-size:30px;
+        margin:0 15px;
+        color:#ff9900;
+        text-decoration:none;
+    }
+
+    /* CONTACT */
+    .contact{
+        text-align:center;
+        padding:40px;
+        font-size:20px;
+        background:white;
+        margin-top:40px;
+        border-top:5px solid #ff9900;
+    }
+
+    @media(max-width:850px){
+        .hero{
+            flex-direction:column;
+            text-align:center;
+        }
+        .cards{
+            flex-direction:column;
+        }
+    }
+
+</style>
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<!-- HERO SECTION -->
+<div class="hero">
+    <img src="C:\Users\amuth\OneDrive\Pictures\abi.jpg" alt="profile">
+
+    <div class="hero-text">
+        <h1>Hey There, I'm <span style="color:#ff9900;">Abivarman</span></h1>
+        <p>B.E ECE – Dhanalakshmi Srinivasan Engineering College</p>
+        <p class="highlight">Aspiring Frontend Developer</p>
+        <p>I create simple, clean and modern designs. Technology, creativity  
+           and innovation inspire me every day.</p>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<h2 class="section-title">About Me</h2>
+<div class="cards">
+    <div class="card">
+        <h3>Who Am I?</h3>
+        <p>I am Abivarman from Thanjavur District.  
+           Passionate about technology, UI, and frontend development.</p>
+        <p>I completed my schooling at Muvendar Matric Hr. Sec. School.</p>
+    </div>
+
+    <div class="card">
+        <h3>Experience & Certificates</h3>
+        <p>• Internship – Embedded System @ NSIC</p>
+        <p>• SQL Course – Simplilearn</p>
+        <p>• Hands-on experience in frontend designing</p>
+    </div>
+</div>
+
+<!-- PROJECT -->
+<h2 class="section-title">My Project</h2>
+<div class="cards">
+    <div class="card">
+        <h3>Sign Language to Speech System</h3>
+        <p>This project converts hand sign gestures into real-time speech  
+           using image processing and machine learning.  
+           It helps differently-abled individuals communicate easily  
+           by converting gestures into audio output.</p>
+    </div>
+</div>
+
+<!-- SKILLS -->
+<h2 class="section-title">Skills</h2>
+<div class="cards">
+    <div class="card"><h3>HTML</h3><p>Strong structure & layout handling</p></div>
+    <div class="card"><h3>CSS</h3><p>Clean modern UI creation</p></div>
+    <div class="card"><h3>SQL</h3><p>Database fundamentals & queries</p></div>
+</div>
+
+<!-- INTERESTS -->
+<h2 class="section-title">Interests</h2>
+<div class="cards">
+    <div class="card"><h3>🎵 Music</h3><p>Always passionate about music creation</p></div>
+    <div class="card"><h3>🎯 Carrom</h3><p>Loves playing and competing</p></div>
+</div>
+
+<!-- SOCIAL -->
+<h2 class="section-title">Social Media</h2>
+<div class="social">
+    <a href="https://www.youtube.com/@abivarmanmusic777" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://www.instagram.com/abivarman70" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</div>
+
+<!-- CONTACT -->
+<div class="contact">
+    <p><b>WhatsApp:</b> 8531026834</p>
+</div>
+
+</body>
+</html>
